@@ -44,7 +44,12 @@ Plans:
   3. The anti-gatekeeping manifesto block and struggle acknowledgment section explicitly name stylist identity frustrations before introducing any solution content
   4. Pricing shows 3 tiers with value comparison framing anchored against per-method certification costs (not just price-point listing)
   5. A presenter can point to any section and explain in one sentence which JTBD job step put it there and why
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — DEFINE zone (hero, struggle stack, manifesto) + LOCATE zone (topics, educators, founders)
+- [ ] 02-02-PLAN.md — CONFIRM zone (testimonials, pricing) + EXECUTE zone (CTA, footer) + GSAP animations + visual checkpoint
+
 **UI hint**: yes
 
 ### Phase 3: Documentation
@@ -65,5 +70,5 @@ Phases execute in numeric order: 1 → 2 → 3
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 0/1 | Checkpoint (awaiting human verify) | - |
-| 2. Page Sections | 0/TBD | Not started | - |
+| 2. Page Sections | 0/2 | Planned | - |
 | 3. Documentation | 0/TBD | Not started | - |
