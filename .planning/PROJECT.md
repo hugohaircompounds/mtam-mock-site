@@ -12,18 +12,17 @@ Every section of the page exists because a JTBD framework decision put it there 
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Single HTML file with all CSS/JS inline, saved to `slideshows/` folder — Validated in Phase 1: Foundation
+- [x] Page structure driven by JTBD job map: Define > Locate > Prepare > Confirm > Execute — Validated in Phase 1: Foundation (placeholder comments in correct order)
+- [x] Looks polished and presentation-ready (modern design, smooth typography, visual hierarchy) — Validated in Phase 1: Foundation (design token system established)
+- [x] Retains MTAM brand essence: professional yet approachable, anti-gatekeeping, empowerment-focused — Validated in Phase 1: Foundation (brand tokens: DM Serif Display + Manrope, warm gold accent)
 
 ### Active
 
-- [ ] Single HTML file with all CSS/JS inline, saved to `slideshows/` folder
 - [ ] Creative reimagining of morethanamethod.com homepage (not a pixel clone)
-- [ ] Page structure driven by JTBD job map: Define > Locate > Prepare > Confirm > Execute
 - [ ] Messaging uses outcome-based language (what the customer achieves, not feature lists)
 - [ ] Addresses functional job (learn extension techniques), emotional job (feel confident, not judged), and social job (be seen as a skilled professional)
 - [ ] Scroll-only static page — no functional interactivity required
-- [ ] Looks polished and presentation-ready (modern design, smooth typography, visual hierarchy)
-- [ ] Retains MTAM brand essence: professional yet approachable, anti-gatekeeping, empowerment-focused
 - [ ] Prompt list document — bullet format showing prompts used to build the demo
 - [ ] JTBD decision notes — maps each page section to the JTBD framework decision that shaped it
 
@@ -61,8 +60,8 @@ Every section of the page exists because a JTBD framework decision put it there 
 |----------|-----------|---------|
 | Creative reimagine over faithful clone | JTBD-first layout proves the framework's value better than copying existing structure | -- Pending |
 | Scroll-only, no interactivity | Demo is viewed during a presentation — simplicity over functionality | -- Pending |
-| Single HTML file | Clickable link in slideshow must just work — no build step, no server | -- Pending |
-| Desktop-first design | Will be shown on a presentation screen, not mobile devices | -- Pending |
+| Single HTML file | Clickable link in slideshow must just work — no build step, no server | Confirmed Phase 1 |
+| Desktop-first design | Will be shown on a presentation screen, not mobile devices | Confirmed Phase 1 |
 
 ## Evolution
 
@@ -82,4 +81,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-30 after initialization*
+*Last updated: 2026-03-30 after Phase 1 completion*
