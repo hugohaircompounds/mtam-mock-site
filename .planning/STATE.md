@@ -10,27 +10,27 @@ See: .planning/PROJECT.md (updated 2026-03-30)
 ## Current Position
 
 Phase: 1 of 3 (Foundation)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-03-30 — Roadmap created, phases derived from requirements
+Plan: 1 of 1 in current phase
+Status: Awaiting human verification (Task 3 checkpoint)
+Last activity: 2026-03-30 — Plan 01-01 Tasks 1-2 executed, awaiting checkpoint verification
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [█████░░░░░] 50%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
+- Total plans completed: 0 (Plan 01-01 awaiting checkpoint verification)
 - Average duration: -
-- Total execution time: 0 hours
+- Total execution time: 3 min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 01-foundation | 0/1 (checkpoint) | 3 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: -
+- Last 5 plans: 01-01 (in progress)
 - Trend: -
 
 *Updated after each plan completion*
@@ -45,6 +45,8 @@ Recent decisions affecting current work:
 - Init: Section order must be derived from job map before any HTML is written (HIGH recovery cost if violated)
 - Init: Stack confirmed — Tailwind v4 Play CDN, GSAP ScrollTrigger, Phosphor Icons v2.1.2, Google Fonts (DM Serif Display + Manrope)
 - Init: Desktop-first, scroll-only, single HTML file saved to `slideshows/`
+- 01-01: Dual token system (:root + @theme) with identical hex values for both vanilla CSS var() and Tailwind utility access
+- 01-01: @utility rules for font-display and font-body — Tailwind v4 does not auto-generate font utilities from @theme --font-* tokens
 
 ### Pending Todos
 
@@ -58,6 +60,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30
-Stopped at: Roadmap created — ready to plan Phase 1
-Resume file: None
+Last session: 2026-03-30T22:31:33Z
+Stopped at: Plan 01-01 Task 3 checkpoint — awaiting human browser verification
+Resume file: .planning/phases/01-foundation/01-01-PLAN.md
