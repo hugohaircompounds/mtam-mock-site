@@ -48,12 +48,13 @@ Declared values — all multiples of 4:
 | xl | 32px | Layout horizontal padding (`px-8` = 32px), hero content margin-bottom |
 | 2xl | 48px | Card grid gaps, major content spacing |
 | 3xl | 64px | Footer vertical rhythm |
-| section | 96px | Vertical padding for every content section (`py-[96px]`) |
+| section | 96px | Vertical padding for every content section (`py-[96px]`) — designated section-level spacing token |
 | container | 1200px | Max-width for all section containers (`max-w-[1200px]`) |
 
-**Exceptions:**
+**Standard spacing set: (4, 8, 16, 24, 32, 48, 64, 96).** All values are multiples of 4. The 96px token is the designated section-level vertical rhythm value and is an explicit member of the scale.
 
-- Section container: `py-[96px]` (96px = 24 × 4, within scale) — used on every `<section>` element
+**Exceptions (decorative ratios only — not spacing units):**
+
 - Accent divider line height: `h-[2px]` — decorative, not a spacing unit
 - Card border radius: `rounded-[16px]` (16px = 4 × 4) — within scale
 - Hero heading line-height: `leading-[1.1]` — typography ratio, not a spacing unit
@@ -250,7 +251,7 @@ All values are confirmed from Phase 1 HTML `:root` block and `@theme` block.
 
 - Element: `<footer>` not `<section>`
 - Background: `bg-brand-bg border-t border-brand-border`
-- Padding: `py-8` (32px — intentionally lighter than section py-[96px])
+- Padding: `py-8` (32px — intentionally lighter than section py-[96px] to signal footer boundary)
 - Layout: `flex items-center justify-between` inside `max-w-[1200px] mx-auto px-8`
 - Copyright: `font-body text-[14px] text-brand-muted` — "© 2024 MoreThanAMethod. All rights reserved."
 - Nav links (Terms, Contact): `font-body text-[14px] text-brand-muted hover:text-brand-text transition-colors flex gap-8`
