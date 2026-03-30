@@ -26,7 +26,7 @@ created: 2026-03-30
 | Icon library | Phosphor Icons v2.1.2 (regular + fill weights) | STACK.md |
 | Animation library | GSAP v3.14.2 + ScrollTrigger | STACK.md |
 | Font — display | DM Serif Display (Google Fonts) | STACK.md |
-| Font — body/UI | Manrope (Google Fonts, weights 300–700) | STACK.md |
+| Font — body/UI | Manrope (Google Fonts, weights 400–600) | STACK.md |
 
 **shadcn gate result:** Not applicable. Project is a single self-contained HTML file (not React/Next.js/Vite). No component registry is used.
 
@@ -38,7 +38,7 @@ Load scripts in this exact order inside `<head>`. Do not reorder — Tailwind mu
 <!-- Fonts (preconnect first, then stylesheet) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
 
 <!-- Icons: Phosphor (regular + fill weights only) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css">
@@ -123,7 +123,7 @@ Declared values (multiples of 4 only). Implemented as Tailwind spacing utilities
 | xl | 32px | Section-internal layout gaps |
 | 2xl | 48px | Between section subsections |
 | 3xl | 64px | Top-level section vertical padding |
-| 4xl | 96px | Major section breaks (hero padding) |
+| 4xl | 96px | Major section breaks (hero padding) — deliberate scale extension beyond the standard 8-point set |
 
 Exceptions: None for Phase 1 (scaffold only — no interactive touch targets yet).
 
@@ -133,16 +133,22 @@ Exceptions: None for Phase 1 (scaffold only — no interactive touch targets yet
 
 | Role | Font | Size | Weight | Line Height | Usage |
 |------|------|------|--------|-------------|-------|
-| Display | DM Serif Display | 56px (desktop hero) | 400 (serif italic as decorative variant) | 1.1 | Hero headline only |
+| Display | DM Serif Display | 56px | 400 (serif italic as decorative variant) | 1.1 | Hero headline only |
 | Heading | DM Serif Display | 36px | 400 | 1.2 | Section headings (h2) |
-| Subheading | Manrope | 20px | 600 | 1.3 | Section subheadings, card titles (h3) |
-| Body | Manrope | 16px | 400 | 1.6 | All paragraph text |
-| Label | Manrope | 14px | 500 | 1.4 | Captions, metadata, tag labels |
-| CTA / Button | Manrope | 16px | 700 | 1.0 | Button copy only |
+| Subheading / CTA | Manrope | 16px | 600 | 1.3 | Section subheadings, card titles (h3), button copy |
+| Body / Label | Manrope | 16px / 14px | 400 | 1.6 / 1.4 | Paragraph text (16px); captions, metadata, tag labels (14px) |
 
-**Weight rule:** Use only weight 400 and weight 600/700. No in-between weights (300 or 500) in the main type hierarchy — load those weights but reserve them for accent/label use only.
+**Declared sizes:** 14px, 16px, 36px, 56px — exactly 4.
 
-**Size rule:** 4 sizes in the hierarchy: 14, 16, 20, 36. Display (56px) is an exception used only in the hero section. No other sizes permitted.
+**Declared weights:** 400 (regular) and 600 (semibold) — exactly 2. No other weights are used in the type hierarchy.
+
+**Subheading vs Body distinction:** Both Subheading and Body share 16px. They are differentiated by weight alone — Subheading uses weight 600, Body uses weight 400. This is sufficient visual distinction; no additional size or color difference is needed.
+
+**Label vs Body distinction:** Label uses 14px at weight 400 and `--color-text-muted` (#9ca3af). The smaller size and muted color provide sufficient distinction from Body (16px at weight 400 on `--color-text-primary`) without introducing a third weight.
+
+**Size rule:** 4 declared sizes only: 14, 16, 36, 56. No other sizes permitted.
+
+**Weight rule:** 2 declared weights only: 400 and 600. Weight 700 is not used. Weight 500 is not used.
 
 ---
 
