@@ -27,7 +27,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Brand tokens (color palette, font families, spacing scale) are defined once in a `:root` block and visibly applied — changing one token updates the whole page
   3. The page renders correctly on a desktop/presentation resolution without horizontal scrolling or layout breakage
   4. The file is saved to the `slideshows/` directory and can be opened by double-clicking (no build step, no server)
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — HTML scaffold with CDN stack, design tokens, token verification block, and JTBD section placeholders
+
 **UI hint**: yes
 
 ### Phase 2: Page Sections
@@ -60,6 +64,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/1 | Planned | - |
 | 2. Page Sections | 0/TBD | Not started | - |
 | 3. Documentation | 0/TBD | Not started | - |
