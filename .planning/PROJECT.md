@@ -23,8 +23,12 @@ Every section of the page exists because a JTBD framework decision put it there 
 
 ### Active
 
-- [ ] Prompt list document — bullet format showing prompts used to build the demo
-- [ ] JTBD decision notes — maps each page section to the JTBD framework decision that shaped it
+(None — all requirements validated)
+
+### Recently Validated (Phase 3)
+
+- [x] Prompt list document — beginner-friendly AI prompt guide with 30 conversational prompts organized by design concept — Validated in Phase 3: Documentation
+- [x] JTBD decision notes — 10-row table mapping every page section to its JTBD stage, framework, and rationale — Validated in Phase 3: Documentation
 
 ### Out of Scope
 
@@ -84,4 +88,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-31 after Phase 2 completion*
+*Last updated: 2026-03-31 after Phase 3 completion — all milestone v1.0 phases complete*
