@@ -44,3 +44,43 @@ A presenter can point to any section of the live demo and read the corresponding
 - **JTBD Core Framework** — Product Framework #3. Provides the struggle identification methodology (Step 5) and current solutions analysis (Step 6). Applied to struggle stack and educator grid.
 - **Elevated Abstraction Strategy** — Strategy Frameworks #2. Pushes messaging past surface-level claims to deeper emotional truths. Applied to founders section.
 - **Outcome-Driven Innovation (ODI)** — Strategy Frameworks #3. Provides the opportunity score logic (importance vs. satisfaction) that frames pricing as high-opportunity. Applied to pricing section.
+
+---
+
+## Presentation Delivery Notes
+
+### Venue Assumption
+This demo assumes **WiFi is available** at the Chennai STYSTS presentation venue (per decision D-10). All fonts, icons, animation libraries, and the Tailwind CSS engine load from CDNs at runtime.
+
+### Target Device
+Chrome on a Windows laptop (per decision D-11). No cross-browser testing performed.
+
+### CDN Dependencies
+The HTML file requires internet access to load these external resources:
+
+| Resource | CDN | Purpose |
+|----------|-----|---------|
+| Tailwind CSS v4 (Play CDN) | cdn.jsdelivr.net/npm/@tailwindcss/browser@4 | Utility-first styling engine — compiles all class-based styles at runtime |
+| GSAP 3.14.2 | cdn.jsdelivr.net/npm/gsap@3.14.2 | Core animation library |
+| GSAP ScrollTrigger 3.14.2 | cdn.jsdelivr.net/npm/gsap@3.14.2 (ScrollTrigger plugin) | Scroll-driven entrance animations for each section |
+| Google Fonts (DM Serif Display, Manrope) | fonts.googleapis.com / fonts.gstatic.com | Display serif + body sans-serif typography |
+| Phosphor Icons v2.1.2 (regular + fill) | cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2 | UI icons (checkmarks, stars) in regular and fill weights |
+| Educator/founder photos (9 images) | alpha.uscreencdn.com | Real MTAM educator and founder headshots from Uscreen CDN |
+| Hero background image | alpha.uscreencdn.com | Full-bleed hero section background photo |
+
+### Pre-Presentation Checklist
+1. Connect laptop to venue WiFi
+2. Open `slideshows/mtam-homepage-demo.html` in Chrome
+3. Scroll through the full page to confirm all sections render (fonts loaded, icons visible, animations trigger on scroll)
+4. Verify all educator photos appear (8 headshots in the educator grid + 1 large founder photo)
+5. If any resource fails to load, check browser console (F12 > Console tab) for blocked URLs
+
+### Fallback Plan (if WiFi unavailable)
+- **Fonts:** Browser will fall back to system sans-serif and serif fonts. Layout will not break, but typography will look generic.
+- **Icons:** Phosphor icons will not render. Icon placeholders will appear as empty space. Non-blocking — no layout shift.
+- **Animations:** GSAP will not load. All sections will appear statically (visible immediately, no scroll animations). The page remains fully readable and scrollable.
+- **Photos:** Educator and founder images will not load. Empty placeholder areas will appear. This is the most visually noticeable degradation.
+- **Tailwind CSS:** This is the critical dependency. Without Tailwind's Play CDN, utility classes will not compile and the page will render as unstyled HTML with raw text. **Mitigation:** If WiFi is uncertain, run `npx @tailwindcss/cli -i input.css -o output.css` before the trip to pre-compile styles, then embed the output in a `<style>` tag. This step is NOT needed if WiFi is confirmed.
+
+### Verdict
+With WiFi confirmed at the venue, the demo is presentation-ready as-is. No offline compilation needed. The only risk is Uscreen CDN availability for photos — if MTAM's hosting has an outage, educator headshots will not appear, but all other page content (text, layout, icons, animations) will render normally.
