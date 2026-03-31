@@ -16,13 +16,13 @@ Every section of the page exists because a JTBD framework decision put it there 
 - [x] Page structure driven by JTBD job map: Define > Locate > Prepare > Confirm > Execute — Validated in Phase 1: Foundation (placeholder comments in correct order)
 - [x] Looks polished and presentation-ready (modern design, smooth typography, visual hierarchy) — Validated in Phase 1: Foundation (design token system established)
 - [x] Retains MTAM brand essence: professional yet approachable, anti-gatekeeping, empowerment-focused — Validated in Phase 1: Foundation (brand tokens: DM Serif Display + Manrope, warm gold accent)
+- [x] Creative reimagining of morethanamethod.com homepage (not a pixel clone) — Validated in Phase 2: page-sections (JTBD job-map layout with modern dark aesthetic, real educator photos, sticky header)
+- [x] Messaging uses outcome-based language (what the customer achieves, not feature lists) — Validated in Phase 2: page-sections (all headings use outcome language, zero feature-count patterns)
+- [x] Addresses functional job (learn extension techniques), emotional job (feel confident, not judged), and social job (be seen as a skilled professional) — Validated in Phase 2: page-sections (hero=functional, struggle+manifesto=emotional, educators+testimonials=social)
+- [x] Scroll-only static page — no functional interactivity required — Validated in Phase 2: page-sections (10 sections scroll top-to-bottom with GSAP animations)
 
 ### Active
 
-- [ ] Creative reimagining of morethanamethod.com homepage (not a pixel clone)
-- [ ] Messaging uses outcome-based language (what the customer achieves, not feature lists)
-- [ ] Addresses functional job (learn extension techniques), emotional job (feel confident, not judged), and social job (be seen as a skilled professional)
-- [ ] Scroll-only static page — no functional interactivity required
 - [ ] Prompt list document — bullet format showing prompts used to build the demo
 - [ ] JTBD decision notes — maps each page section to the JTBD framework decision that shaped it
 
@@ -32,7 +32,7 @@ Every section of the page exists because a JTBD framework decision put it there 
 - Backend or database — single static HTML file
 - Multiple pages or routing — homepage only
 - Presentation slide (PowerPoint/Google Slides) — handled separately
-- Real founder/educator photos — placeholder imagery acceptable
+- ~~Real founder/educator photos~~ — moved to validated: real photos pulled from morethanamethod.com during Phase 2
 - Mobile-responsive perfection — desktop-first for presentation context
 - E-commerce or payment integration
 
@@ -58,8 +58,11 @@ Every section of the page exists because a JTBD framework decision put it there 
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Creative reimagine over faithful clone | JTBD-first layout proves the framework's value better than copying existing structure | -- Pending |
-| Scroll-only, no interactivity | Demo is viewed during a presentation — simplicity over functionality | -- Pending |
+| Creative reimagine over faithful clone | JTBD-first layout proves the framework's value better than copying existing structure | Confirmed Phase 2 |
+| Scroll-only, no interactivity | Demo is viewed during a presentation — simplicity over functionality | Confirmed Phase 2 |
+| Real MTAM educator photos from CDN | Presenter requested actual headshots instead of placeholders — makes demo more credible | Added Phase 2 |
+| Sticky header with MTAM text logo | Presenter requested header similar to original site but more modern | Added Phase 2 |
+| Hero background image from MTAM site | Full-bleed background with gradient overlay for modern aesthetic | Added Phase 2 |
 | Single HTML file | Clickable link in slideshow must just work — no build step, no server | Confirmed Phase 1 |
 | Desktop-first design | Will be shown on a presentation screen, not mobile devices | Confirmed Phase 1 |
 
@@ -81,4 +84,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-03-30 after Phase 1 completion*
+*Last updated: 2026-03-31 after Phase 2 completion*
