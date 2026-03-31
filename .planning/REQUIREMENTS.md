@@ -46,8 +46,8 @@
 
 ### Deliverables
 
-- [ ] **DLVR-01**: Prompt list document in bullet format showing prompts used
-- [ ] **DLVR-02**: JTBD decision notes mapping each section to the framework decision that shaped it
+- [x] **DLVR-01**: Prompt list document in bullet format showing prompts used
+- [x] **DLVR-02**: JTBD decision notes mapping each section to the framework decision that shaped it
 
 ## v2 Requirements
 
@@ -110,8 +110,8 @@ Deferred to future release if demo leads to a real project.
 | TRST-03 | Phase 2 | Pending |
 | CONV-01 | Phase 2 | Pending |
 | CONV-02 | Phase 2 | Pending |
-| DLVR-01 | Phase 3 | Pending |
-| DLVR-02 | Phase 3 | Pending |
+| DLVR-01 | Phase 3 | Complete |
+| DLVR-02 | Phase 3 | Complete |
 
 **Coverage:**
 - v1 requirements: 23 total

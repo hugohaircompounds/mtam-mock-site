@@ -63,7 +63,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 03-01-PLAN.md — AI prompt guide (DLVR-01) + JTBD decision notes (DLVR-02)
+- [x] 03-01-PLAN.md — AI prompt guide (DLVR-01) + JTBD decision notes (DLVR-02)
 
 ## Progress
 
