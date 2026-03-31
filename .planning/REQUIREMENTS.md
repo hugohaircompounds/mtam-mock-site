@@ -14,17 +14,17 @@
 
 ### Hero / Define Zone
 
-- [ ] **HERO-01**: Hero section with outcome-based headline addressing the functional job
-- [ ] **HERO-02**: Subheadline addressing the emotional job (confidence, no judgment)
-- [ ] **HERO-03**: Primary CTA button above the fold
-- [ ] **HERO-04**: Problem-first framing section naming specific stylist struggles (Struggle Stack)
-- [ ] **HERO-05**: Anti-gatekeeping manifesto block addressing identity/social job
+- [x] **HERO-01**: Hero section with outcome-based headline addressing the functional job
+- [x] **HERO-02**: Subheadline addressing the emotional job (confidence, no judgment)
+- [x] **HERO-03**: Primary CTA button above the fold
+- [x] **HERO-04**: Problem-first framing section naming specific stylist struggles (Struggle Stack)
+- [x] **HERO-05**: Anti-gatekeeping manifesto block addressing identity/social job
 
 ### Content / Locate Zone
 
-- [ ] **CONT-01**: Course topics list using outcome language (not feature counts)
-- [ ] **CONT-02**: Guest educator grid with name + specialization label + placeholder image
-- [ ] **CONT-03**: Founder identity section with struggle-origin narrative
+- [x] **CONT-01**: Course topics list using outcome language (not feature counts)
+- [x] **CONT-02**: Guest educator grid with name + specialization label + placeholder image
+- [x] **CONT-03**: Founder identity section with struggle-origin narrative
 
 ### Trust / Prepare + Confirm Zone
 
@@ -97,14 +97,14 @@ Deferred to future release if demo leads to a real project.
 | DSGN-02 | Phase 1 | Pending |
 | DSGN-03 | Phase 1 | Pending |
 | DSGN-04 | Phase 1 | Pending |
-| HERO-01 | Phase 2 | Pending |
-| HERO-02 | Phase 2 | Pending |
-| HERO-03 | Phase 2 | Pending |
-| HERO-04 | Phase 2 | Pending |
-| HERO-05 | Phase 2 | Pending |
-| CONT-01 | Phase 2 | Pending |
-| CONT-02 | Phase 2 | Pending |
-| CONT-03 | Phase 2 | Pending |
+| HERO-01 | Phase 2 | Complete |
+| HERO-02 | Phase 2 | Complete |
+| HERO-03 | Phase 2 | Complete |
+| HERO-04 | Phase 2 | Complete |
+| HERO-05 | Phase 2 | Complete |
+| CONT-01 | Phase 2 | Complete |
+| CONT-02 | Phase 2 | Complete |
+| CONT-03 | Phase 2 | Complete |
 | TRST-01 | Phase 2 | Pending |
 | TRST-02 | Phase 2 | Pending |
 | TRST-03 | Phase 2 | Pending |

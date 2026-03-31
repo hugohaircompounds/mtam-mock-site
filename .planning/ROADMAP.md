@@ -47,7 +47,7 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — DEFINE zone (hero, struggle stack, manifesto) + LOCATE zone (topics, educators, founders)
+- [x] 02-01-PLAN.md — DEFINE zone (hero, struggle stack, manifesto) + LOCATE zone (topics, educators, founders)
 - [ ] 02-02-PLAN.md — CONFIRM zone (testimonials, pricing) + EXECUTE zone (CTA, footer) + GSAP animations + visual checkpoint
 
 **UI hint**: yes
